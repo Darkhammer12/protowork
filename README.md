@@ -1,7 +1,7 @@
 # protowork
 
 # Basics:
-## Task 1: Example of protobuf all in one file.
+### Task 1: Example of protobuf all in one file.
 -All in one file:
 --City with the following fields:
 --Name
@@ -9,11 +9,16 @@
 --Country Name
 
 ### Task 2: Example of protobuf with nested messages
--building and street with the following fields:
+-Nested building and street with the following fields:
 --Street Name
 --City
 
-### Task 3: Imports
+### Task 3: Example Imports
 -- building
 --city
 --street
+
+### Task 4: Example of Imports with packages
+-- building
+-- city
+-- street
