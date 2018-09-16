@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package building;
+
+// reminder full path from root
+import "basics/4-imports-with-packages";
+
+message Building{
+  string building_name = 1;
+  int64 building_number = 2;
+  street.Street street = 3;
+}
